@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/png" href="https://cdn.discordapp.com/emojis/739420561112957049.webp?size=96&quality=lossless"/>
+    <meta charset="UTF-8">
+    <title>sup</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/barra.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<div class="card">
+    <div class="banner"></div>
+    <div class="content">
+        <div class="avatar-container">
+            <img class="avatar" src="https://media.discordapp.net/attachments/1147040902334910585/1152646770699026503/IMG_9332.jpg?width=575&height=566" alt="Imagem de Perfil">
+            <div>
+                <div class="badges">
+                    <img class="badge" src="https://media.discordapp.net/attachments/1146212469228978226/1157792235383947374/devrico.png?ex=6519e58b&is=6518940b&hm=1164af9ecef95739184178ad9e12e23176f6fdafbca3fb2cdedd38b7c82ed688&=" alt="Badge 1">
+                    <img class="badge" src="https://media.discordapp.net/attachments/1146212469228978226/1157792832103387147/porkin.png?ex=6519e619&is=65189499&hm=ca6896392dafe7c604e32f63f98aa39fc77c39f9e8a19a00751040d9e532e755&=" alt="Badge 3">
+                    <img class="badge" src="https://media.discordapp.net/attachments/1146212469228978226/1157793459055362179/6318iconhypesquadbrilliance.png?ex=6519e6af&is=6518952f&hm=c94ed411bec9b64c2cf26d7272d7b671f4cfd0d2b5136c6774a7793068241d59&=" alt="Badge 4">
+                    <img class="badge" src="https://media.discordapp.net/attachments/1146212469228978226/1157793581071876176/hype.png?ex=6519e6cc&is=6518954c&hm=e78f57f314b0bf5c722d9a9ec203ed4bb21be68e0480fac27298d0087573cca9&=" alt="Badge 4">
+                </div>
+            </div>
+        </div>
+        <div class="username">supzin</div>
+        <div class="discriminator">supr1se#7777</div>
+        <div id="audio-controls">
+            <button id="prev-button"><i class="fas fa-backward"></i></button>
+            <button id="pause-button"><i id="pause-icon" class="fas fa-pause"></i></button>
+            <button id="next-button"><i class="fas fa-forward"></i></button>
+        </div>
+        <!-- Adicione a barra de duração da música aqui -->
+        <div id="progress-bar-container">
+            <input type="range" id="progress-bar" min="0" value="0" step="0.1">
+        </div>
+    </div>
+    <div class="volume-control">
+        <!-- Remova a barra de controle de volume -->
+    </div>
+    
+    
+</div>
+<div id="playlist">
+    <audio src="music/a.mp3"></audio>
+    <audio src="music/b.mp3"></audio>
+    <audio src="music/c.mp3"></audio>
+    <audio src="music/d.mp3"></audio>
+    <!-- Adicione mais áudios para as outras músicas -->
+</div>
+
+<script src="js/musica.js"></script>
+</body>
+</html>
